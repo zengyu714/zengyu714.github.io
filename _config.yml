@@ -1,0 +1,42 @@
+# Site configuration
+title: kimmy
+brief-intro: To Infinity and Beyond
+description_footer: 士不可以不弘毅，任重而道远
+
+baseurl: ""
+url: "www.zengyu.ink"
+
+tag_dir: tag/
+category_dir: category/
+permalink: /:year/:month/:day/:title/
+excerpt_separator: "\n\n\n\n"
+
+# Plugins
+plugins: [jekyll-paginate, jemoji]
+paginate: 6
+
+# Conversion
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Social links
+twitter_username: ZengDayu
+github_username:  zengyu714
+email: zykimmy714@gmail.com
+# facebook_username:
+# weibo_username:
+# zhihu_username:
+# linkedIn_username:
+# dribbble_username:
+
+# Comments
+disqus_shortname: zengyu714
+
+# Statistic analysis
+google_analytics_id: UA-121215895-1
+
+# Local serving settings
+port: 4000
+host: 0.0.0.0
