@@ -1,12 +1,13 @@
 .page[demo] {
     .left {
+        width: 100%;
         h1 {
           font-weight: 700;
         }
-        width: 100%;
         a {
-            color: #4d6dad;
             transition: 0.5s ease;
+
+            color: #4d6dad;
             &:hover {
                 color: #223253;
                 background-color: #f4efeb;
@@ -17,20 +18,24 @@
             margin: 0 auto;
             /* clearfix */
             &:after {
-                content: '';
                 display: block;
                 clear: both;
+
+                content: '';
             }
             .grid-item {
+                float: left;
+
                 width: 250px;
-                background-color: #fff;
                 margin: 0 0.4em 1em 0.4em;
                 padding-bottom: 0.5em;
-                float: left;
-                transition: 0.5s ease;
+
                 -webkit-transition: 0.5s ease;
                 -moz-transition: 0.5s ease;
                 -o-transition: 0.5s ease;
+                transition: 0.5s ease;
+
+                background-color: #fff;
                 -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
                 -moz-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
                 box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
@@ -49,9 +54,10 @@
                     }
                 }
                 .demo-title {
+                    margin: 0 8px;
+
                     font-size: 18px;
                     font-weight: bold;
-                    margin: 0 8px;
                 }
                 .justify {
                   text-align: justify;
@@ -62,6 +68,7 @@
                 p {
                     margin: 0;
                     padding: 0 8px;
+
                     font-size: 14px;
                 }
             }
@@ -70,6 +77,18 @@
 }
 .deep{
     transition: .32s cubic-bezier(0.46, 0.03, 0.52, 0.96);
-    transform-style: preserve-3d;
     transform: perspective(1600px) rotateX(14deg) translateZ(-200px);
+
+    transform-style: preserve-3d;
+}
+
+.modal-content {
+  background-color: #f8f8fd;
+  .modal-footer {
+    padding: 0.9rem;
+    padding-right: 16px;
+
+    font-size:large;
+    font-weight: 600;
+  }
 }

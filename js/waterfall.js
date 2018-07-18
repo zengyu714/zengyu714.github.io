@@ -90,7 +90,7 @@ function contentInit(content) {
   // var htmlStr = htmlArr.join('')
   var htmlStr = ''
   for (var i = 0; i < content.length; i++) {
-    htmlStr += '<div class="grid-item"> ' + ' <a class="a-img" href="' + content[i].demo_link + '">' + ' <img src="' + content[i].img_link + '">' + '</a> ' + '<h3 class="demo-title">' + ' <a href="' + content[i].demo_link + '">' + content[i].title + '</a>' + '</h3>' + '<p><i class="fa fa-camera-retro" aria-hidden="true"></i><b>Keys: </b>' + content[i].core_tech + '</p>' + '<p><a href="' + content[i].code_link + '"><i class="fa fa-coffee" aria-hidden="true" style="margin-right: 4.5px;"></i><b>Source Code</b></a></p>' + '<p class="justify"><i class="fa fa-quote-left" aria-hidden="true"></i>' + content[i].description + '</p>' + '</div>'
+    htmlStr += '<div class="grid-item"> ' + ' <a class="a-img" href="' + content[i].demo_link + '" data-toggle="lightbox" data-max-width="714" data-footer="' + content[i].title + '">' + ' <img src="' + content[i].img_link + '" class="img-fluid">' + '</a> ' + '<h3 class="demo-title">' + ' <a href="' + content[i].demo_link + '">' + content[i].title + '</a>' + '</h3>' + '<p><i class="fa fa-camera-retro" aria-hidden="true"></i><b>Keys: </b>' + content[i].core_tech + '</p>' + '<p><a href="' + content[i].code_link + '"><i class="fa fa-coffee" aria-hidden="true" style="margin-right: 4.5px;"></i><b>Source Code</b></a></p>' + '<p class="justify"><i class="fa fa-quote-left" aria-hidden="true"></i>' + content[i].description + '</p>' + '</div>'
   }
   var grid = document.querySelector('.grid')
   grid.insertAdjacentHTML('afterbegin', htmlStr)

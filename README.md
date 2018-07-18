@@ -13,10 +13,9 @@
 ## To Do
 - [x] 暂时移除Collections模块
 - [x] 迁移旧的博客
-- [ ] Demo打开时不跳转页面
+- [x] Demo打开时不跳转页面
 - [ ] 代码高亮的配色
-
-- [ ] 整理Posts
+- [x] 整理Posts
 - [ ] GitHub评论 <==> Disqus
 
 ## Change Log

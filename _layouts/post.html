@@ -97,13 +97,15 @@ layout: default
 </div>
 <script>
 /**
- * target _blank
+ * target _blank except footnote
  */
-(function() {
-    var aTags = document.querySelectorAll('article a:not([id])')
-    for (var i = 0; i < aTags.length; i++) {
-        aTags[i].setAttribute('target', '_blank')
-    }
-}());
+ (function() {
+     var aTags = document.querySelectorAll('article a:not([id])')
+     for (var i = 0; i < aTags.length; i++) {
+         if (aTags[i].className.slice(-8) != 'footnote') {
+           aTags[i].setAttribute('target', '_blank')
+         }
+     }
+ }());
 </script>
 <script src="{{ "/js/pageContent.js" | prepend: site.baseurl }}" charset="utf-8"></script>

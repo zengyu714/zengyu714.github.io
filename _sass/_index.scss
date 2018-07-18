@@ -1,15 +1,17 @@
 .page[index] {
     a {
-        color: #4d6dad;
         transition: 0.5s ease;
+
+        color: #4d6dad;
         &:hover {
             color: #223253;
         }
     }
     .left {
         h1 {
-          font-weight: 700;
           margin-bottom: auto;
+
+          font-weight: 700;
         }
         >ul {
             padding: 0;
@@ -19,19 +21,24 @@
             li {
                 color: #333;
                 h2 {
-                    border: none;
-                    font-size: 27px;
                     margin: 0;
+
+                    border: none;
+
+                    font-size: 27px;
                 }
                 .label {
-                    margin-bottom: 15px;
                     overflow: hidden;
+
+                    margin-bottom: 15px;
                     .label-card {
                         float: left;
+
                         margin-right: 15px;
                         i {
-                            padding-right: 0;
                             margin-right: 3px;
+                            padding-right: 0;
+
                             color: #6b6a6a;
                         }
                     }
@@ -52,10 +59,12 @@
                 }
                 .read-all {
                     text-align: right;
+
                     font-size: 14px;
                     a {
-                        color: #778ab0;
                         transition: 0.2s ease;
+
+                        color: #778ab0;
                         &:hover {
                             color: #5872a7;
                         }
@@ -70,8 +79,9 @@
             text-align: center;
             .previous,
             .next {
-                font-size: 20px;
                 padding: 0 5px;
+
+                font-size: 20px;
             }
             .page_number {
                 padding: 0 5px;
@@ -88,25 +98,31 @@
                 padding-bottom: 0;
                 i {
                     margin-right: 5px;
+
                     color: #223253;
                 }
                 .content-ul[cate] {
                     overflow: hidden;
-                    list-style: none;
+
                     margin: 0;
                     padding: 0;
+
+                    list-style: none;
                     li {
                         font-size: 14px;
                         a {
                             display: block;
+
                             width: 100%;
                             padding: 2px 0;
+
                             border-bottom: 1px solid #eee;
                             &:hover {
                                 background-color: #dbdfee;
                                 .badge {
-                                    background-color: #dbdfee;
                                     transform: scale(1.2) rotate(360deg);
+
+                                    background-color: #dbdfee;
                                 }
                             }
                             .name {
@@ -114,18 +130,21 @@
                             }
                             .badge {
                                 display: block;
-
                                 // width: 20px;
                                 float: right;
-                                text-align: center;
-                                margin-right: 15px;
+
                                 margin-top: 3px;
+                                margin-right: 15px;
                                 padding: 0 10px;
-                                font-size: 12px;
-                                color: #fff;
-                                background-color: #bbb;
-                                border-radius: 50%;
+
                                 transition: 0.5s ease-in-out;
+                                text-align: center;
+
+                                color: #fff;
+                                border-radius: 50%;
+                                background-color: #bbb;
+
+                                font-size: 12px;
                             }
                         }
                         &:last-of-type a {
@@ -137,6 +156,7 @@
                     padding-bottom: 16px;
                     li{
                         color:#aaa;
+
                         font-size: 14px;
                     }
                 }
@@ -144,6 +164,7 @@
                     font-weight: normal;
                     a {
                         padding: 0 3px;
+
                         border-radius: 5px;
                         &:hover {
                             background-color: #f0e7ce;

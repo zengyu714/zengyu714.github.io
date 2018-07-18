@@ -6,8 +6,6 @@ icon: motorcycle
 type: page
 ---
 
-
-
 <div class="grid">
     <!-- <div class="grid-item">
         <a href="http://gaohaoyang.github.io/ghost-button-css3/">
@@ -23,8 +21,19 @@ type: page
     </div> -->
 </div>
 
+
 <script src="{{ "/js/masonry.pkgd.min.js" | prepend: site.baseurl }}" charset="utf-8"></script>
 <script src="{{ "/js/waterfall.js" | prepend: site.baseurl }}" charset="utf-8"></script>
 
+<!-- for image modal -->
+<script src="{{ "/js/jquery-3.3.1.min.js" | prepend: site.baseurl }}" charset="utf-8"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+<script src="{{ "/js/ekko-lightbox.min.js" | prepend: site.baseurl }}" charset="utf-8"></script>
+<script type="text/javascript">
+$(document).on('click', '[data-toggle="lightbox"]', function(event) {
+                event.preventDefault();
+                $(this).ekkoLightbox();
+            });
+</script>
 
 <!-- {% include comments.html %} -->
