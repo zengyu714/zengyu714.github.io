@@ -45,12 +45,22 @@
                 color: #333;
             }
         }
+        a.footnote:before {
+         content: "[";
+        }
+
+        a.footnote:after {
+            content: "]";
+        }
         .minor-adjust {
               top: 0.242em;
               left: -1.7em;
         }
         .relatedPost {
           margin-left: 1.85em;
+        }
+        .blue {
+          color: blue;
         }
         // .post-recent {
         //     width: 100%;

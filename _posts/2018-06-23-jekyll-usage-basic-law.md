@@ -11,7 +11,7 @@ author: buzzyrain
 
 
 这里需要确定一下新版Jekyll使用指南，即基本法，先念一句诗
-<img src="http://wx1.sinaimg.cn/mw690/9f1c5669gy1fskejhd19yj209306iglh.jpg"
+<img src="https://wx1.sinaimg.cn/mw690/9f1c5669gy1fskejhd19yj209306iglh.jpg"
  height="20" width="28" alt="暴力膜" style="position: relative; top: 6px;"/>
 > 苟利国家生死以，岂因祸福避趋之。-- 林则徐
 

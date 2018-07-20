@@ -14,16 +14,16 @@
      */
   var demoContent = [
     {
-      demo_link: 'http://wx1.sinaimg.cn/mw690/9f1c5669gy1fskcdep5vkg20no0im4r3.gif',
-      img_link: 'http://wx2.sinaimg.cn/mw690/9f1c5669gy1fo8cllizqkj20rx0gu77q.jpg',
+      demo_link: 'https://wx1.sinaimg.cn/mw690/9f1c5669gy1fskcdep5vkg20no0im4r3.gif',
+      img_link: 'https://wx2.sinaimg.cn/mw690/9f1c5669gy1fo8cllizqkj20rx0gu77q.jpg',
       code_link: 'https://github.com/zengyu714/corneal-gui',
       title: 'Corneal Boundaries Extraction Tools via U-Net',
       core_tech: 'Flask; U-Net; ECharts',
       description: 'Based on Web framework, using deliberately random highlight noise to train the lightweight U-Net for a robust boundaries extractor.'
     },
     {
-      demo_link: 'http://wx3.sinaimg.cn/large/9f1c5669ly1fkkgr59jmug20hs0f0b2b.gif',
-      img_link: 'http://wx4.sinaimg.cn/mw690/9f1c5669gy1fskbqiio8tj20ki0hbmxu.jpg',
+      demo_link: 'https://wx3.sinaimg.cn/large/9f1c5669ly1fkkgr59jmug20hs0f0b2b.gif',
+      img_link: 'https://wx4.sinaimg.cn/mw690/9f1c5669gy1fskbqiio8tj20ki0hbmxu.jpg',
       code_link: 'https://github.com/zengyu714/standard-panel-classification',
       title: 'Standard Panel Localization and Classification',
       core_tech: 'PyTorch; SSD; RetinaNet',
@@ -31,15 +31,15 @@
     },
     {
       demo_link: 'https://wx1.sinaimg.cn/large/9f1c5669ly1fkkbcoj9xng20g005kkjz.gif',
-      img_link: 'http://wx3.sinaimg.cn/mw690/9f1c5669gy1fskc54ssdrj20jt06smx7.jpg',
+      img_link: 'https://wx3.sinaimg.cn/mw690/9f1c5669gy1fskc54ssdrj20jt06smx7.jpg',
       code_link: 'https://github.com/zengyu714/corneal-limbus-detection',
       title: 'Contour Detection in Corneal Video',
       core_tech: 'PyTorch; Corneal',
       description: 'Combined off-line and on-line training for robust corneal\'s video segmentation . The whole training process only depends on <b>single</b> initial frame and its labels, while other samples are fabricated by sinusoidal transformation.'
     },
     {
-      demo_link: 'http://wx4.sinaimg.cn/mw690/9f1c5669gy1fskcrxwh9og20cs0b0x6z.gif',
-      img_link: 'http://wx2.sinaimg.cn/mw690/9f1c5669gy1fskcud3aiej20f50b6jrr.jpg',
+      demo_link: 'https://wx4.sinaimg.cn/mw690/9f1c5669gy1fskcrxwh9og20cs0b0x6z.gif',
+      img_link: 'https://wx2.sinaimg.cn/mw690/9f1c5669gy1fskcud3aiej20f50b6jrr.jpg',
       code_link: 'https://github.com/zengyu714/rectus-femoris-segment',
       title: 'Rectus Femoris Segmentation',
       core_tech: 'PyTorch; U-Net; Visdom',
