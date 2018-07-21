@@ -79,6 +79,7 @@
                             background-color: #b6b6b9;
                         }
                     }
+
                 }
                 .pageTag {
                     i {
@@ -101,6 +102,9 @@
                     }
                 }
             }
+        }
+        .fa-li {
+          top: 0.3em;
         }
     }
     .anchor {
@@ -164,7 +168,7 @@
         }
         .content-ul {
             overflow-y: auto;
-
+            margin-top: 1rem;
             padding-right: 10px;
             padding-left: 35px;
 

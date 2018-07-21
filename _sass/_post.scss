@@ -54,13 +54,47 @@
         }
         .minor-adjust {
               top: 0.242em;
-              left: -1.7em;
+              left: -1.6em;
         }
         .relatedPost {
           margin-left: 1.85em;
         }
-        .blue {
-          color: blue;
+        .alert-exercise-heading {
+          color: #155724;
+          border-color: #c3e6cb;
+          background-color: #d4edda47;
+        }
+        .alert-question {
+          color: #795b04;
+          border-color: #ffeeba;
+          background-color: #fff3cd47;
+        }
+        .btn-vertical-adjust {
+          margin-bottom: 0.64rem;
+
+          text-align: left;
+
+          border-radius: 0.25rem;
+        }
+        .note {
+          color: #5a5b6c;
+
+          font-size: 10px;
+          font-style: italic;
+        }
+        .footnotes {
+          margin-left: -2em;
+
+          color: #5a5b6c;
+
+          font-size: 10px;
+          font-style: italic;
+        }
+        .img-large {
+          width: 74%;
+        }
+        .img-mid {
+          width: 47%;
         }
         // .post-recent {
         //     width: 100%;

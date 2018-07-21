@@ -13,6 +13,20 @@
 
           font-weight: 700;
         }
+        a.footnote:before {
+         content: "[";
+        }
+        a.footnote:after {
+            content: "]";
+        }
+        .footnotes {
+          margin-left: -2em;
+
+          color: #5a5b6c;
+
+          font-size: 10px;
+          font-style: italic;
+        }
         >ul {
             padding: 0;
             >li {
@@ -30,6 +44,7 @@
                 .label {
                     overflow: hidden;
 
+                    margin-top: 4px;
                     margin-bottom: 15px;
                     .label-card {
                         float: left;
@@ -153,7 +168,6 @@
                     }
                 }
                 .content-ul[recent]{
-                    padding-top: 16px;
                     padding-bottom: 16px;
                     li{
                         color:#aaa;
