@@ -12,7 +12,7 @@ author: buzzyrain
 
 这里需要确定一下新版Jekyll使用指南，即基本法，先念一句诗
 <img src="https://wx1.sinaimg.cn/mw690/9f1c5669gy1fskejhd19yj209306iglh.jpg"
- height="20" width="28" alt="暴力膜" style="position: relative; top: 6px;"/>
+ height="20" width="28" alt="暴力膜" style="position: relative;"/>
 > 苟利国家生死以，岂因祸福避趋之。-- 林则徐
 
 现在看，仅以民族的视角考量人类整体的发展，再放在洪荒宇宙的尺度下，显得小气。（抱歉，年少轻狂<br>
