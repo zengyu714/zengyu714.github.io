@@ -52,14 +52,11 @@
         a.footnote:after {
             content: "]";
         }
-        img {
-          // mx-auto
-          margin-left: auto;
-          margin-right: auto;
+        img:not(.emoji) {
           // row
           flex-wrap: wrap;
-          // img
-          max-width: 100%;
+          max-width: 80%;
+          margin: 0.64rem auto 0.64rem 10%;
           // d-block
           // display: inherit;
         }
