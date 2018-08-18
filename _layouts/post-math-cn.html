@@ -105,7 +105,9 @@ Use flag to implement language switch -->
 (function() {
     var aTags = document.querySelectorAll('article a:not([id])')
     for (var i = 0; i < aTags.length; i++) {
-        if (aTags[i].hash === "") {
+        var hash = aTags[i].hash;
+        // classify urlencode when jump to another page
+        if (hash === "" || hash.slice(0, 2) === "#%") {
           aTags[i].setAttribute('target', '_blank')
         }
     }
